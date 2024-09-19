@@ -30,7 +30,7 @@ jobs:
     - name: Download text file from build job
       uses: actions/download-artifact@v4
       with:
-        name: download artifact
+        name: hello-artifact
         path: ./artifacts
 
     - name: Display content
